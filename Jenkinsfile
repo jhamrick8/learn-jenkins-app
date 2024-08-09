@@ -24,6 +24,7 @@ pipeline {
             steps{
                 sh '''
                 echo "Test stage"
+                cd build
                 ls -la
                 '''
             }
